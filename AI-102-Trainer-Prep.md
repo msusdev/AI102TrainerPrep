@@ -1,5 +1,7 @@
 # AI-102 Trainer Preparation Guide
 
+## Introduction
+
 This document is intended to help trainers prepare to teach content and lab resources related to the Microsoft Azure AI Engineer AI-102 curriculum. The document presents information relative to preparing to teach the content and to prepare to take the certification exam, Microsoft Certified: Azure AI Engineer Associate.
 
 ## Major Focus Areas
@@ -11,11 +13,13 @@ This document is intended to help trainers prepare to teach content and lab reso
 - Implement knowledge mining and document intelligence solutions
 - Implement generative AI solutions
 
-## Role Definition for Azure AI Engineer
+## Audience Profile
 
 The Azure AI Engineer is has the responsibility to build, manage, and deploy Azure AI solutions leveraging the Microsoft Azure Cognitive Services and Azure Applied AI services. They participate in all phases of AI solutions projects from defining requirements, to the design and development, deployment, maintenance, performance tuning, and monitoring of Azure AI solutions. They will typically collaborate with solution architects, data scientists, data engineers, IoT specialists, and AI developers to build complete end-to-end AI solutions.
 
-## Instructor Prerequisite Knowledge
+## Instructor Preparation
+
+### Instructor Prerequisite Knowledge
 
 To effectively teach content on AI-102, an instructor must meet this prereqeuisite knowledge:
 
@@ -24,7 +28,35 @@ To effectively teach content on AI-102, an instructor must meet this prereqeuisi
 - Familiarity with JSON and REST programming semantics
 - Experience with Azure Cognitive Services, Azure Bot Service, and Azure Cognitive Search
 
-## Course Timing
+### Pre-class Activities
+
+#### License Requirements
+
+- Ensure each participant has an Azure account (Free trial or paid)
+- Ensure instructor has the necessary Azure account and credits or billing information to create the necessary services
+
+#### Environment Setup
+
+- To use Azure OpenAI, you must [request access to Azure OpenAI](https://aka.ms/oai/access?wt.mc_id=esi_bom_content_wwl) and AI services as appropriate.
+- If you will be using a lab hosted environment from Skillable, GoDeploy IT, or other provider, ensure the lab environment is provisioned and ready for students on day one.
+- Provide participants with environment prerequisites for local computers such as Azure CLI, Visual Studio Code, and necessary SDKs if a lab environment is not being used. This includes any software applications that are required to complete the labs. Lab instructions, labfiles, and required software are listed at the following links:
+    - [AI Services](https://github.com/MicrosoftLearning/mslearn-ai-services)
+    - [AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision)
+    - [AI Language](https://github.com/MicrosoftLearning/mslearn-ai-language)
+    - [Document Intelligence](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence)
+    - [Knowledge Mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining)
+    - [OpenAI](https://github.com/MicrosoftLearning/mslearn-openai)
+- Provide participants with instructions, or a link to instructions, on how to create an Azure account if a lab environment is not being used.
+
+#### Pre-reading Materials
+
+- [Azure AI Services Reference](https://learn.microsoft.com/en-us/azure/ai-services/)
+- [Glossary of AI Terms](https://fastbots.ai/ai-glossary)
+- [AI-102 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102)
+
+### In-class Activities
+
+#### Course Timing
 
 | Day | Estimated Time | Classroom activity|
 |-----|----------------|-------------------|
