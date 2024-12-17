@@ -3,12 +3,12 @@
 ## Introduction
 
 This guide is designed to help you prepare to teach content and lab resources for the Microsoft Azure AI Engineer AI-102 curriculum. It provides essential information you need to effectively deliver the content and assist learners in preparing for the Microsoft Certified: Azure AI Engineer Associate certification exam.
-<!-- Hi Gerry, I have added the section names for Section 1 and 2 below. Please adjust the formatting of the headings to reflect the hierarchy in the document.-->
-Section 1: Trainer Foundations
+
+## Section 1: Trainer Foundations
+
 This section focuses on components you must internalize and accomplish to be prepared for delivering the training.
 
-
-## Major focus areas
+### Major focus areas
 
 The training will cover the following focus areas:
 
@@ -19,11 +19,9 @@ The training will cover the following focus areas:
 - Implement knowledge mining and document intelligence solutions
 - Implement generative AI solutions
 
-## Audience profile
+### Audience profile
 
 As an Azure AI Engineer, you will build, manage, and deploy Azure AI solutions leveraging the Microsoft Azure Cognitive Services and Azure Applied AI services. Your role involves participating in all phases of AI solutions projects from requirements gathering through design, development, deployment, maintenance, performance optimization, and continuous monitoring of Azure AI solutions. You will typically collaborate with solution architects, data scientists, data engineers, IoT specialists, and AI developers to build complete, end-to-end AI solutions.
-
-## Instructor preparation
 
 ### Instructor prerequisite knowledge
 
@@ -40,7 +38,7 @@ You can leverage the following resources to prepare for teaching the Azure AI-10
 
 #### Azure administrator training
 
-While AI-102 does not cover Azure administration tasks, you must be able to navigate the Azure portal, create services and resources in the portal, and configure those resources. Familiarity with PowerShell or Bash and Azure Resource Manager (ARM) templates is also useful to help demonstrate the automation of provisioning of services. <!-- removed the term 'recommended' as the MS Style guide asks to avoid using it --> 
+While AI-102 does not cover Azure administration tasks, you must be able to navigate the Azure portal, create services and resources in the portal, and configure those resources. Familiarity with PowerShell or Bash and Azure Resource Manager (ARM) templates is also useful to help demonstrate the automation of provisioning of services.
 
 As participants will need guidance on navigating the portal and creating and configuring services, you can develop expertise through the following targeted training resources:
 
@@ -71,9 +69,9 @@ While completing these learning paths, you should take notes for areas you are n
 
 - [Azure AI Services Documentation](https://learn.microsoft.com/en-us/azure/ai-services/)
 
-Section 2: Training Session Execution
-This section outlines the actions and steps you need to perform before, during, and after each training session.
+## Section 2: Training Session Execution
 
+This section outlines the actions and steps you need to perform before, during, and after each training session.
 
 ### Pre-class activities
 
@@ -102,32 +100,32 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 |1 | 20 minutes | Course introduction and participant introductions (time may vary due to the number of participant introductions in a given course)|
 | | 130 total minutes | 1: Introduction to AI and Azure AI Services |
 | | 30 minutes | Lab: Get started with Azure AI services |
-| | 40 minutes | Demo: Secure AI services |
-| | | Demo: Monitor AI services |
+| | 20 minutes | Demo: Secure AI services |
+| | 20 minutes | Demo: Monitor AI services |
 | | 50 minutes | Lecture |
 | | 220 total minutes | 2: Develop computer vision solutions with Azure AI Vision |
-| | 120 minutes | Lab: Analyze images with Azure AI Vision|
-| | | Lab: Read text in images |
-| | | Lab: Classify images with a custom Azure AI Vision model|
-| | 40 minutes | Demo: Detect faces |
-| | | Demo: Analyze video |
+| | 40 minutes | Lab: Analyze images with Azure AI Vision|
+| | 40 minutes | Lab: Read text in images |
+| | 40 minutes | Lab: Classify images with a custom Azure AI Vision model|
+| | 20 minutes | Demo: Detect faces |
+| | 20 minutes | Demo: Analyze video |
 | | 60 minutes | Lecture |
-| 2 | -- minutes | Day 1 review Finish up anything not completed |
+| 2 | | Day 1 review Finish up anything not completed |
 | | 270 total minutes | 3: Develop natural language processing solutions|
-| | 140 minutes | Lab: Analyze text |
-| | | Lab: Create question answering solution |
-| | | Lab: Create a language understanding model |
-| | 40 minutes | Demo: Custom named entity extraction |
-| | | Demo: Translate text |
+| | 20 minutes | Lab: Analyze text |
+| | 40 minutes | Lab: Create question answering solution |
+| | 50 minutes | Lab: Create a language understanding model |
+| | 20 minutes | Demo: Custom named entity extraction |
+| | 20 minutes | Demo: Translate text |
 | | 90 minutes | Lecture |
-| 3 | -- minutes | Day 2 review Finish up anything not completed|
+| 3 |  | Day 2 review Finish up anything not completed|
 | | 210 total minutes | 4: Develop Generative AI solutions with Azure OpenAI Service |
-| | 120 minutes | Lab: Integrate Azure OpenAI into your app |
-| | | Lab: Utilize prompt engineering in your app |
-| | | Lab: Use your own data with Azure OpenAI |
+| | 40 minutes | Lab: Integrate Azure OpenAI into your app |
+| | 40 minutes | Lab: Utilize prompt engineering in your app |
+| | 40 minutes | Lab: Use your own data with Azure OpenAI |
 | | 20 minutes | Demo: Get started with Azure OpenAI |
 | | 70 minutes | Lecture|
-| 4 | -- minutes | Day 3 review Finish up anything not completed |
+| 4 |  | Day 3 review Finish up anything not completed |
 | | 120 total minutes | 5: Create knowledge mining solutions Develop solutions with Azure AI Document Intelligence|
 | | 20 minutes | Demo: Create an Azure Cognitive Search solution |
 | | 45 minutes | Lab: Create a custom skill for Azure AI Search |
@@ -165,13 +163,13 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 
 ### Post-class activities
 
-#### Continuous Learning
+#### Continuous learning
 
 - Provide a curated list of additional Azure AI documentation from the trainer preparation section above.
 - Provide a curated list of additional hands-on activities. Point participants to the [MS Learn eLearning courses](https://learn.microsoft.com/en-us/training/courses/ai-102t00) for additional hands-on exercises.
 - Share upcoming [Azure AI webinars and events](https://azure.microsoft.com/en-in/resources/events/).
 
-#### Exam Preparation
+#### Exam preparation
 
 - Point to [official preparation materials](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification).
 - Give an overview of the Microsoft certification preparation pages and the resources provided there.
@@ -179,7 +177,7 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 - Showcase the [exam sandbox](https://go.microsoft.com/fwlink/?linkid=2226877) to help participants understand how a Microsoft exam is constructed.
 - Review the [exam study guide](https://aka.ms/ai102-StudyGuide) and instruct participants on how to use it effectively for exam preparation.
 
-#### Real-world Application
+#### Real-world application
 
 - Suggest AI hackathon ideas using Azure services.
 - Encourage participation in [Azure AI community forums](https://techcommunity.microsoft.com/category/Azure).
