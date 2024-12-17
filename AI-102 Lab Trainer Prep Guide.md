@@ -25,27 +25,28 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 ### Labfiles
 
 Lab instructions, labfiles, and required software are listed at the following links:
-    - [AI Services](https://github.com/MicrosoftLearning/mslearn-ai-services)
-    - [AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision)
-    - [AI Language](https://github.com/MicrosoftLearning/mslearn-ai-language)
-    - [Document Intelligence](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence)
-    - [Knowledge Mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining)
-    - [OpenAI](https://github.com/MicrosoftLearning/mslearn-openai)
+
+- [AI Services](https://github.com/MicrosoftLearning/mslearn-ai-services)
+- [AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision)
+- [AI Language](https://github.com/MicrosoftLearning/mslearn-ai-language)
+- [Document Intelligence](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence)
+- [Knowledge Mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining)
+- [OpenAI](https://github.com/MicrosoftLearning/mslearn-openai)
 
 ### Lab estimated durations
 
 | Lab | Estimated Duration |
 | --- | --- |
 | Lab: Get Started with Azure AI Services | 30 minutes |
-| Lab: Analyze Images with Azure AI Vision| 120 minutes |
-| | Lab: Read Text in Images |
-| | Lab: Classify images with a custom Azure AI Vision model|
-| Lab: Analyze text | 140 minutes |
-| | Lab: Create question answering solution |
-| | Lab: Create a language understanding model |
-| Lab: Integrate Azure OpenAI into your app  | 120 minutes |
-| | Lab: Utilize prompt engineering in your app |
-| | Lab: Use your own data with Azure OpenAI |
+| Lab: Analyze Images with Azure AI Vision| 40 minutes |
+| Lab: Read Text in Images  |40 minutes |
+| Lab: Classify images with a custom Azure AI Vision model | 40 minutes |
+| Lab: Analyze text | 40 minutes |
+| Lab: Create question answering solution | 50 minutes  |
+| Lab: Create a language understanding model | 50 minutes  |
+| Lab: Integrate Azure OpenAI into your app  | 40 minutes |
+| Lab: Utilize prompt engineering in your app | 40 minutes |
+| Lab: Use your own data with Azure OpenAI | 40 minutes |
 | Lab: Create a Custom Skill for Azure AI Search | 45 minutes |
 | Lab: Custom document intelligence models| 45 minutes |
 
