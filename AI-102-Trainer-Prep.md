@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide is designed to help you prepare to teach content and lab resources for the Microsoft Azure AI Engineer AI-102 curriculum. It provides essential information you need to effectively deliver the content and assist learners in preparing for the Microsoft Certified: Azure AI Engineer Associate certification exam.
+This guide is designed to help you prepare the Microsoft Azure AI Engineer AI-102 curriculum and its associated labs. It provides essential information you need to effectively deliver the content and assist learners in preparing for the Microsoft Certified: Azure AI Engineer Associate certification exam.
 
 ## Section 1: Trainer Foundations
 
@@ -40,7 +40,7 @@ You can leverage the following resources to prepare for teaching the Azure AI-10
 
 While AI-102 does not cover Azure administration tasks, you must be able to navigate the Azure portal, create services and resources in the portal, and configure those resources. Familiarity with PowerShell or Bash and Azure Resource Manager (ARM) templates is also useful to help demonstrate the automation of provisioning of services.
 
-As participants will need guidance on navigating the portal and creating and configuring services, you can develop expertise through the following targeted training resources:
+To guide participants on navigating the portal and creating and configuring services, you can build your expertise using the following targeted training resources:
 
 - [Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/training/courses/az-900t00)
 - [Microsoft Azure Administrator](https://learn.microsoft.com/en-us/training/courses/az-104t00)
@@ -58,12 +58,13 @@ The following resources can be used to learn the programming languages:
 - [Python](https://www.udemy.com/course/complete-python-bootcamp/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_Keyword_Alpha_Prof_la.EN_cc.US&campaigntype=Search&portfolio=Bing-USA&language=EN&product=Course&test=&audience=Keyword&topic=Python&priority=Alpha&utm_content=deal4584&utm_term=_._ag_1324913889653675_._ad__._kw_free+python+course_._de_c_._dm__._pl__._ti_kwd-82808213013652%3Aloc-190_._li_111485_._pd__._&matchtype=e&msclkid=0346a014e1421114b0bfc743868e7057&couponCode=NVD20PMUS)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
-#### Azure AI-102 Specific preparation materials
+#### Azure AI-102 specific preparation materials <!--In this section, we may also need to add info on "Required materials to teach this course". More details in the e-mail.-->
 
-You must complete all the learning paths specifically oriented toward the Azure AI Services and the AI Engineer role to gain familiarity with course content. You must complete all the modules and hands-on exercises to gain experience with the technologies used in the course content.
+To effectively prepare for teaching AI-102, explore key resources that build your understanding of Azure AI Services and the AI Engineer role. The following materials will help you strengthen your familiarity with the course content and technologies:
 
-- [Prepare to Teach AI-102](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-102-microsoft-design-implement-azure/)
-- [AI-102 Training](https://learn.microsoft.com/en-us/training/courses/ai-102t00)
+- [Prepare to Teach AI-102](https://learn.microsoft.com/en-us/training/paths/prepare-teach-ai-102-microsoft-design-implement-azure/) Access targeted training and resources designed to enhance your teaching readiness for AI-10
+  
+- [AI-102 Training](https://learn.microsoft.com/en-us/training/courses/ai-102t00) Dive into specialized training sessions and materials to deepen your understanding of the curriculum and its delivery
 
 While completing these learning paths, you should take notes for areas you are not confident with and use the additional documentation and examples found on the Microsoft documentation sites at the following URL:
 
@@ -81,11 +82,13 @@ Participants will require an Azure account (Free trial or paid). Sign up for a [
 
 #### Environment setup
 
-There are various ways to enable participants to perform hands-on exercises. Lab hosting partners such as [Skillable](https://www.skillable.com/virtual-it-labs-skills-validation-hands-on-learning/?nab=1) and [GoDeploy](https://godeploy.com/) offer lab environments for a fee. These lab environments do not require participants to have their own accounts. The account information is included in the lab cost. You must ensure that a lab environment is provisioned and ready for participants on Day one.
+There are various ways to enable participants to perform hands-on exercises. Lab hosting partners such as [Skillable](https://www.skillable.com/virtual-it-labs-skills-validation-hands-on-learning/?nab=1) and [GoDeploy](https://godeploy.com/) offer lab environments for a fee. These lab environments do not require participants to have their own accounts. The account information is included in the lab cost. You must ensure that a lab environment is provisioned and ready for participants on Day One.
 
 Many hands-on exercises can be completed without a lab hosting environment. This will require the participant to have an Azure account and access to the Azure portal to perform the tasks associated with the hands-on exercises. For an environment that does not use a hosted lab, you must provide participants with environment prerequisites for local computers such as Azure CLI, Visual Studio Code, and necessary SDKs if a lab environment is not being used.
 
 #### Pre-reading materials
+
+Share the following materials with participants before the session to help them build a foundational understanding of Azure AI concepts and prepare for the training:
 
 - [Azure AI Services Reference](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [Glossary of AI Terms](https://fastbots.ai/ai-glossary)
@@ -94,6 +97,8 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 ### In-class activities
 
 #### Course timing
+
+The following table outlines the course timing for the training sessions, providing a detailed schedule to help participants stay organized and prepared throughout the program:
 
 | Day | Estimated time | Classroom activity|
 |-----|----------------|-------------------|
@@ -137,17 +142,23 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 
 #### Core concepts
 
+Use the following guidelines to focus on the foundational elements of the course and enhance participant understanding of core AI-102 concepts:
+
 - Use [Microsoft Learn modules for AI-102](https://learn.microsoft.com/en-us/training/courses/ai-102t00) as a base curriculum.
 - Emphasize hands-on demos for each Azure Cognitive Service.
 - Utilize Azure AI documentation for deep dives into specific services.
 
 #### Lab guidance
 
+Follow these recommendations to guide participants effectively through lab sessions:
+
 - Follow Microsoft Official Courseware (MOC) for AI-102, if available.
 - Implement pair programming for complex labs.
 - If using a lab environment, walk participants through the process of signing in, setting up, and navigating the lab environment, at least for the first lab session.
 
 #### Best practices
+
+Apply these best practices to deliver engaging, efficient, and effective training sessions:
 
 - Begin with topic overviews and objectives.
 - Demonstrations should be clear and rehearsed. You must be thoroughly familiar with the demonstrations and be able to perform them without relying on written instructions during the demo.
@@ -157,6 +168,8 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 
 #### Tips and tricks
 
+Leverage these tips and tricks to enhance delivery and ensure participants gain the most from the training:
+
 - Stick to the demonstration, content, and lab materials to ensure a consistent delivery and alignment to Microsoft standards.
 - Research frequently asked questions for Azure AI services to have answers readily available.
 - Summarize key learnings at regular intervals.
@@ -165,11 +178,15 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 
 #### Continuous learning
 
+Encourage participants to expand their knowledge and skills after the session by utilizing the following resources:
+
 - Provide a curated list of additional Azure AI documentation from the trainer preparation section above.
 - Provide a curated list of additional hands-on activities. Point participants to the [MS Learn eLearning courses](https://learn.microsoft.com/en-us/training/courses/ai-102t00) for additional hands-on exercises.
 - Share upcoming [Azure AI webinars and events](https://azure.microsoft.com/en-in/resources/events/).
 
 #### Exam preparation
+
+Support participants in preparing for the certification exam with these targeted resources and strategies:
 
 - Point to [official preparation materials](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification).
 - Give an overview of the Microsoft certification preparation pages and the resources provided there.
@@ -178,6 +195,8 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 - Review the [exam study guide](https://aka.ms/ai102-StudyGuide) and instruct participants on how to use it effectively for exam preparation.
 
 #### Real-world application
+
+Inspire participants to extend their learning through practical projects and active community involvement:
 
 - Suggest AI hackathon ideas using Azure services.
 - Encourage participation in [Azure AI community forums](https://techcommunity.microsoft.com/category/Azure).
