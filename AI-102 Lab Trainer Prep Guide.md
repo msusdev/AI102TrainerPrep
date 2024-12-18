@@ -115,4 +115,3 @@ Inspire participants to extend their learning through practical projects and act
 
 - Suggest AI hackathon ideas using Azure services.
 - Encourage participation in [Azure AI community forums](https://techcommunity.microsoft.com/category/Azure).
-
