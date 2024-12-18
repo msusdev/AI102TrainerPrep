@@ -58,7 +58,7 @@ The following resources can be used to learn the programming languages:
 - [Python](https://www.udemy.com/course/complete-python-bootcamp/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_Keyword_Alpha_Prof_la.EN_cc.US&campaigntype=Search&portfolio=Bing-USA&language=EN&product=Course&test=&audience=Keyword&topic=Python&priority=Alpha&utm_content=deal4584&utm_term=_._ag_1324913889653675_._ad__._kw_free+python+course_._de_c_._dm__._pl__._ti_kwd-82808213013652%3Aloc-190_._li_111485_._pd__._&matchtype=e&msclkid=0346a014e1421114b0bfc743868e7057&couponCode=NVD20PMUS)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
-#### Azure AI-102 specific preparation materials <!--In this section, we may also need to add info on "Required materials to teach this course". More details in the e-mail.-->
+#### Azure AI-102 specific preparation materials
 
 To effectively prepare for teaching AI-102, explore key resources that build your understanding of Azure AI Services and the AI Engineer role. The following materials will help you strengthen your familiarity with the course content and technologies:
 
@@ -69,6 +69,12 @@ To effectively prepare for teaching AI-102, explore key resources that build you
 While completing these learning paths, you should take notes for areas you are not confident with and use the additional documentation and examples found on the Microsoft documentation sites at the following URL:
 
 - [Azure AI Services Documentation](https://learn.microsoft.com/en-us/azure/ai-services/)
+
+##### Required materials to teach this course
+
+Microsoft PowerPoint files and change log are available to Microsoft Certified Trainers and can be accessed by signing into the [MCT technology hub](https://techcommunity.microsoft.com/) and search for the MCT files download post.
+
+The lab instructions and the lab files are also available for download from the Microsoft Learn GitHub repos. The links are provided in the Lab Trainer Prep Guide.
 
 ## Section 2: Training Session Execution
 
