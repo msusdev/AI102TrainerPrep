@@ -50,7 +50,7 @@ To guide participants on navigating the portal and creating and configuring serv
 
 Accessing the services and resources for AI-102 requires an understanding of REST API and SDK access to these services. The most commonly used languages when accessing the services are C# and Python. While the knowledge of both languages is not required, it is imperative that you be very familiar with at least one of these two languages and be able to guide participants in its application.
 
-As REST APIs require uploading of JSON formatted input and also return results in JSON format, you must know how to read JSON files to be able to help participants understand how to use the REST APIs correctly. 
+As REST APIs require uploading of JSON formatted input and also return results in JSON format, you must know how to read JSON files to be able to help participants understand how to use the REST APIs correctly.
 
 The following resources can be used to learn the programming languages:
 

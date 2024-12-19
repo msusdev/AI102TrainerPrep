@@ -56,18 +56,18 @@ The following table lists the labs along with their durations, providing a clear
 
 | Lab | Estimated Duration |
 | --- | --- |
-| Lab: Get Started with Azure AI Services | 30 minutes |
-| Lab: Analyze Images with Azure AI Vision| 40 minutes |
-| Lab: Read Text in Images  |40 minutes |
-| Lab: Classify images with a custom Azure AI Vision model | 40 minutes |
-| Lab: Analyze text | 40 minutes |
-| Lab: Create question answering solution | 50 minutes  |
-| Lab: Create a language understanding model | 50 minutes  |
-| Lab: Integrate Azure OpenAI into your app  | 40 minutes |
-| Lab: Utilize prompt engineering in your app | 40 minutes |
-| Lab: Use your own data with Azure OpenAI | 40 minutes |
-| Lab: Create a Custom Skill for Azure AI Search | 45 minutes |
-| Lab: Custom document intelligence models| 45 minutes |
+| [Lab: Get Started with Azure AI Services](https://github.com/MicrosoftLearning/mslearn-ai-services) | 30 minutes |
+| [Lab: Analyze Images with Azure AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision) | 40 minutes |
+| [Lab: Read Text in Images](https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/05-ocr.md)  |40 minutes |
+| [Lab: Classify images with a custom Azure AI Vision model](https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/02-image-classification.md) | 40 minutes |
+| [Lab: Analyze text](https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md) | 40 minutes |
+| [Lab: Create question answering solution](https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/02-qna.md) | 50 minutes  |
+| [Lab: Create a language understanding model](https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/03-language-understanding.md) | 50 minutes  |
+| [Lab: Integrate Azure OpenAI into your app](https://github.com/MicrosoftLearning/mslearn-openai)  | 40 minutes |
+| [Lab: Utilize prompt engineering in your app](https://github.com/MicrosoftLearning/mslearn-openai/blob/main/Instructions/Exercises/03-prompt-engineering.md) | 40 minutes |
+| [Lab: Use your own data with Azure OpenAI](https://github.com/MicrosoftLearning/mslearn-openai/blob/main/Instructions/Exercises/06-use-own-data.md) | 40 minutes |
+| [Lab: Create a Custom Skill for Azure AI Search](https://github.com/MicrosoftLearning/mslearn-knowledge-mining/tree/main) | 45 minutes |
+| [Lab: Custom document intelligence models](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence) | 45 minutes |
 
 ### Best Practices
 
