@@ -1,24 +1,16 @@
 # AI-102 Lab Trainer Prep Guide
 
-This guide is intended to help you prepare to deliver the labs associated with the AI-102 curriculum. The recommended labs are those included as a part of the AI-102 official training. You must ensure the participants have completed the labs and are familair with the content prior to delivering the labs. This prepparation is essential to ensuring a good experience for the participants. You need to anticipate common problems and be able to assist the participants with any issues or errors arising from the lab steps, changes in the Azure UI, and any hosted lab environments.
+This guide is intended to help you prepare to deliver the labs associated with the AI-102 curriculum. The recommended labs are those included as a part of the AI-102 official training. You must ensure the participants have completed the labs and are familiar with the content prior to delivering the labs. This preparation is essential to ensuring a good experience for the participants. You need to anticipate common problems and be able to assist the participants with any issues or errors arising from the lab steps, changes in the Azure UI, and any hosted lab environments.
 
-## Trainer Foundations
-
-This section focuses on components you must internalize and accomplish to be prepared for delivering the training and to ensure execution of the labs during the delivery.
-
-## Trainer Session Execution
-
-This section outlines the actions and steps you need to perform before, during, and after each training session.
-
-### Pre-class activities
+## Pre-class activities
 
 ### License requirements
 
-Particpants will require an Azure account (Free trial or paid). Sign up for a [free account](https://azure.microsoft.com/en-in/pricing/purchase-options/azure-account). You must have the necessary Azure account and credits or billing information to create the necessary services. You must also ensure the participants have requested, and been granted, access to Azure OpenAI.
+Participants will require an Azure account (Free trial or paid). Sign up for a [free account](https://azure.microsoft.com/en-in/pricing/purchase-options/azure-account). You must have the necessary Azure account and credits or billing information to create the necessary services. You must also ensure the participants have requested, and been granted, access to Azure OpenAI.
 
 ### Environment setup
 
-There are various ways to enable participants to perform hands-on exercises. Lab hosting partners such as [Skillable](https://www.skillable.com/virtual-it-labs-skills-validation-hands-on-learning/?nab=1) and [GoDeploy](https://godeploy.com/) offer lab environments for a fee. These lab environments do not require particcipants to have their own accounts. The account information is included in the lab cost. You must ensure that a lab environment is provisioned and ready for participants on Day One.
+There are various ways to enable participants to perform hands-on exercises. Lab hosting partners such as [Skillable](https://www.skillable.com/virtual-it-labs-skills-validation-hands-on-learning/?nab=1) and [GoDeploy](https://godeploy.com/) offer lab environments for a fee. These lab environments do not require participants to have their own accounts. The account information is included in the lab cost. You must ensure that a lab environment is provisioned and ready for participants on Day One.
 
 Many hands-on exercises can be completed without a lab hosting environment. This will require the participant to have an Azure account and access to the Azure portal to perform the tasks associated with the hands-on exercises. For an environment that does not use a hosted lab, you must provide participants with environment prerequisites for local computers such as Azure CLI, Visual Studio Code, and necessary SDKs if a lab environment is not being used.
 
@@ -26,11 +18,11 @@ Many hands-on exercises can be completed without a lab hosting environment. This
 
 Use the lab instructions, labfiles, and required software listed at the following links. All labs should be completed by the instructor from beginning to end. If using a hosted lab environment, perform the labs in that environment as there may be subtle differences or nuances in the hosted environments that cause the labs to behave differently.
 
-When setting up a local computer to perform the labs from, ensure you follow the setup instructions and document any variations that students may need to be aware of.
+When setting up a local computer to perform the labs, ensure you follow the setup instructions and document any variations that students may need to be aware of.
 
 Labs for core AI Services, [AI Services](https://github.com/MicrosoftLearning/mslearn-ai-services). These labs are designed to cover the basic aspects of Azure AI Services. More information on creating Azure AI Services can be found on the [AI Services web page](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services). Follow the Quickstarts and How-to guides on this page to practice.
 
-Azure AI Vision is a service that provides services for processing images. They servivces support Optical Character Recognition (OCR), image analysis, face detection and feature recognition, and video analysis. [AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision). Further documentation and support for learning about Azure AI Vision can be found on the [computer vision](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview) page. Use this resource to understand how to effectively use the services in the labs.
+Azure AI Vision is a service that provides services for processing images. They services support Optical Character Recognition (OCR), image analysis, face detection and feature recognition, and video analysis. [AI Vision](https://github.com/MicrosoftLearning/mslearn-ai-vision). Further documentation and support for learning about Azure AI Vision can be found on the [computer vision](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview) page. Use this resource to understand how to effectively use the services in the labs.
 
 The Azure AI Language service provides Natural Language Processing (NLP) features for understanding and analyzing text. [AI Language](https://github.com/MicrosoftLearning/mslearn-ai-language). Explore the capabilities and gain access to quickstarts and how-tos on the [Azure AI language page](https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview).
 
@@ -38,11 +30,11 @@ Azure AI Document Intelligence is a cloud-based Azure AI service that uses machi
 
 Ensure you understand the various types of documents supported and how to work with pre-built forms and custom forms for data extraction in the forms recognizer capabilities. Further information is available on the [document intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview?view=doc-intel-4.0.0) page.
 
-Knowledge mining uses a combination of intelligent services to quickly learn from vast amounts of information. It allows organizations to deeply understand and easily explore information, uncover hidden insights, and find relationships and patterns at scale. [Knowledge Mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining). This lab explores setting up an Azure search resource to be used in the knowledge mining tasks and then moves on to help particpants learn how add skills to the search, add their own data, and add skill enrichments through connections to other AI services such as sentiment analysis, language detection, etc.
+Knowledge mining uses a combination of intelligent services to quickly learn from vast amounts of information. It allows organizations to deeply understand and easily explore information, uncover hidden insights, and find relationships and patterns at scale. [Knowledge Mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining). This lab explores setting up an Azure search resource to be used in the knowledge mining tasks and then moves on to help participants learn how add skills to the search, add their own data, and add skill enrichments through connections to other AI services such as sentiment analysis, language detection, etc.
 
 There are many exercises in this lab so completion of each lab and gaining a thorough understanding of the concepts being covered is crucial to support participants as they complete these exercises. Additional information can be found on the [knowledge mining](https://azure.microsoft.com/en-us/solutions/knowledge-mining/#:~:text=By%20orchestrating%20various%20AI%20capabilities%2C%20knowledge%20mining%20delivers,phases%20to%20knowledge%20mining%3A%20ingest%2C%20enrich%2C%20and%20explore.) page.
 
-This lab covers exercises on using the Azure OpenAI models for generative AI. This will help participants learn how to use the Azure OpenAI and Azure AI Studio portals. The labs also teach how to access the services over REST APIs.  [OpenAI](https://github.com/MicrosoftLearning/mslearn-openai). Prepare for this lab by completing these labs to understand how to use the various facilities that participants will use. For added information, familairize yourself with the reference materials found on the [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) page.
+This lab covers exercises on using the Azure OpenAI models for generative AI. This will help participants learn how to use the Azure OpenAI and Azure AI Studio portals. The labs also teach how to access the services over REST APIs.  [OpenAI](https://github.com/MicrosoftLearning/mslearn-openai). Prepare for this lab by completing these labs to understand how to use the various facilities that participants will use. For added information, familiarize yourself with the reference materials found on the [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) page.
 
 ## In-class activities
 
@@ -53,7 +45,6 @@ Follow these recommendations to guide participants effectively through the lab s
 - Ensure participants understand how to sign in, set up, and navigate the lab environment.
 - Follow Microsoft Official Courseware (MOC) for AI-102, if available.
 - Implement pair programming for complex labs.
-- If using a lab environment, walk participants through the process of signing in, setting up, and navigating the lab environment, at least for the first lab session.
 - Create a troubleshooting guide for common issues participants might face.
 - Adjust pacing if participants are progressing faster or slower than expected.
 
@@ -78,14 +69,13 @@ The following table lists the labs along with their durations, providing a clear
 
 ### Best Practices
 
-- Ensure that participants accounts are setup and ready to go on day one, if using a hosted lab environment.
-- If not using a hosted lab environment, ensure that all participants receive communication prior to class, on required hardware and software components they should have.
-- Stress the importance or being ready to start on day one. Installing and configuring software will distract from the class and create timing issues with the delivery.
-
+- If you are not using a hosted lab environment, ensure that all participants receive communication prior to class, on required hardware and software components they should have.
+- Stress the importance of being ready to start on Day One. Any delays caused by installing and configuring software can disrupt the class flow and lead to significant timing challenges in delivering the content effectively.
+  
 ### Tips and Tricks
 
-- As you complete the labs yourself, note any places that caused you issues and document that for your reference. If you had an issues, participants will likely experience the same thing.
-- Verify the timing of the labs to ensure you know how long it takes you to complete them. If possible, have someone who is not an expert in the technology, complete the labs and time them. This will give you an idea of how long participants, who are learning, could take to complete the labs
+- As you complete the labs yourself, note any places that caused you issues and document that for your reference. If you had an issue, participants will likely experience the same thing.
+- Verify the timing of the labs to ensure you know how long it takes you to complete them. If possible, have someone who is not an expert in the technology, complete the labs and time them. This will give you an idea of how long participants, who are learning, could take to complete the labs.
 - Have a plan to manage timelines for the range of participants that will attend. Some will take longer than others to complete the labs. Have additional reading or some other resource to pass on to the participants who complete the labs early.
 - If using a hosted lab environment, familiarize yourself with how to use the administrative tools that are provided, such as the ability to monitor the lab progress or to take control of a lab VM to assist.
 
